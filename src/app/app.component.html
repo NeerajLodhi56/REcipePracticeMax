@@ -1,0 +1,26 @@
+<h1>hello peter</h1>
+<!-- <input type="text"[(ngModel)]="name" >
+<p>{{name}}</p>
+<div class="container-fluid">
+    <div class="row">
+        <h2>server name is {{serverName}} and server id is {{getServer()}}</h2>
+    </div>
+</div>
+<button class="btn btn-primary"  [disabled]="!allowNewServer" (click)="OnCreateServer()"  >Add server</button>
+<p>{{serverCreationStatus}}</p>
+<label>Server Name</label>
+<input type="text" class="form-control"
+(input)="OnUpdateServerName($event)">
+<p>{{ServerNames}}</p>
+<label>compny</label>
+<input type="text" class="form-control" [(ngModel)]="compnyName">
+<h3>{{compnyName}}</h3> -->
+<!-- <app-home *ngFor="let server of servers"></app-home> -->
+<!-- <app-profile></app-profile> -->
+<!-- <app-home></app-home>
+<app-server></app-server> -->
+<app-childrens [studentDetail]="student"
+(messageEvent)="reciveMessage($event)"
+></app-childrens>
+<h1> message from child :: {{message}}</h1>
+<app-employee></app-employee>

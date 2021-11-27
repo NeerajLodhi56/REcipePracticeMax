@@ -1,0 +1,6 @@
+<div class="container">
+    <label>Require server</label>
+    <input type="text" class="form-control" [(ngModel)]="serverName">
+    <button class="btn btn-danger" [disabled]="serverName===''" (click)="onResetUser()">Add server</button>
+    <p>{{serverName}}</p>
+</div>
